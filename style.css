@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  .offer {
+  .offer{
     background: linear-gradient(to right, #000000, #e74c3c);
     color: white;
     text-align: center;
@@ -21,6 +21,7 @@
   nav > h5 {
     display: inline-block;
     margin-inline: 15px;
+    cursor: pointer;
   }
   nav > input {
     width: 30%;
@@ -48,6 +49,9 @@
     background-color: rgba(0, 0, 0, 0.4);
     padding: 2%;
   }
+  .sale > header h1{
+    text-transform:uppercase;
+  }
   .category-1 {
     padding: 1% 5%;
     background-color: rgba(0, 0, 0, 0.1);
@@ -56,6 +60,15 @@
     padding: 1%;
     background-color: rgba(0, 0, 0, 0.3);
   }
+  .tr:hover{
+    background-color: #434343;
+    cursor: pointer;
+    height: 150px;
+    width: 140px;
+    border: none;
+    transition:  0.9s;
+  }
+
   .c1_sub {
     margin-block: 10px;
     color: rgba(0, 0, 0, 0.7);
@@ -108,8 +121,9 @@
     box-shadow: 8px 8px 8px white;
   }
   .shoe-1:hover {
-    right: 15%;
-    top: 25%;
+    right: 18%;
+    top: 18%;
     width: 400px;
     height: 400px;
+    transition: 1s;
   }
